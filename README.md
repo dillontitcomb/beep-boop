@@ -1,12 +1,12 @@
 # _Dillon's Beep Boop Machine_
 
-#### JavaScript & JQuery Exercise for Epicodus, 01.19.2018_
+#### JavaScript & JQuery Exercise for Epicodus, 01.19.2018
 
 #### By _**Dillon Titcomb**_
 
 ## Description
 
-_This web page takes a number input from a user and displays an array of all of the integers counting to that number from zero with some modifications. For instance, numbers with ones and zeroes in them will show as "Boop!" and "Beep!" respectively, whereas numbers divisible by three will return "I'm sorry Dave. I'm afraid I can't do that."_
+_This web page takes a number input from a user and displays an array of all of the integers counting to that number from zero with some modifications. For instance, numbers with ones and zeroes in them will show as "Boop!" and "Beep!" respectively, whereas numbers divisible by three will return "I'm sorry Dave. I'm afraid I can't do that.". The webpage also takes name and favorite number inputs that affect values in the array._
 
 ## Specifications
 
@@ -24,7 +24,7 @@ _This web page takes a number input from a user and displays an array of all of 
 	* _Example output: "I'm sorry John. I'm afraid I can't do that."_
 * _Program displays user's favorite number when it appears in the array._
 	* _Example input: 4_
-	* _Example output: "Beep!. Boop!, I'm sorry (name), I'm afraid I can't do that., 4 is (name)'s favorite number!"_
+	* _Example output: "Beep!, Boop!, I'm sorry (name), I'm afraid I can't do that., 4 is (name)'s favorite number!"_
 * _Program provides a help error if the number input is blank, 0, or negative._
 	* _Example input: (blank)_
 	* _Example output: (alert: Please input a positive integer.)_
@@ -49,7 +49,7 @@ _This web page takes a number input from a user and displays an array of all of 
 
 ## Known Bugs
 
-_When an error message is triggered, the results text also appears. This has not been fixed._
+_No known bugs._
 
 ## Support and contact details
 
