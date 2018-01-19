@@ -16,9 +16,15 @@ _This web page takes a number input from a user and displays an array of all of 
 * _Program replaces any numbers containing ones with "Boop!"_
 	* _Example input: 1_
 	* _Example output: "Boop!"_
-* _Program replaces any numbers divisible by three with "I'm sorry Dave. I'm afraid I can't do that."_
+* _Program replaces any numbers divisible by three with "I'm sorry (name). I'm afraid I can't do that."_
 	* _Example input: 6_
-	* _Example output: "I'm sorry Dave. I'm afraid I can't do that."_
+	* _Example output: "I'm sorry (name). I'm afraid I can't do that."_
+* _Program displays user's name when returning divisible by three text._
+	* _Example input: John_
+	* _Example output: "I'm sorry John. I'm afraid I can't do that."_
+* _Program displays user's favorite number when it appears in the array._
+	* _Example input: 4_
+	* _Example output: "Beep!. Boop!, I'm sorry (name), I'm afraid I can't do that., 4 is (name)'s favorite number!"_
 * _Program provides a help error if the number input is blank, 0, or negative._
 	* _Example input: (blank)_
 	* _Example output: (alert: Please input a positive integer.)_

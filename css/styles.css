@@ -6,3 +6,15 @@ button {
 	margin-top: 15px;
 	margin-bottom: 15px;
 }
+
+#hal {
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	width: 280px;
+	padding-bottom: 20px;
+}
+
+.jumbotron {
+	padding-top: 20px;
+}
