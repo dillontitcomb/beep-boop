@@ -14,6 +14,8 @@ $(document).ready(function() {
 		var numArray = [0]
 		var changedArray = [];
 		var userName = $("#name").val();
+		var userFavNum = $("input#favNum").val();
+		alert(userFavNum);
 		var userInput = $("#numInput").val();
 		if (userInput < 0 || userInput === "") {
 			alert ("Please input a positive integer.")
@@ -24,7 +26,9 @@ $(document).ready(function() {
 				numArray.push(total);
 			}
 				numArray.forEach(function(number) {
-						if (number % 3 === 0 && number !== 0) {
+					if (number == userFavNum) {
+						changedArray.push(number + " is " + userName + "'s favorite number!");
+					}	else if (number % 3 === 0 && number !== 0) {
 						changedArray.push(" I'm sorry " + userName + ". I'm afraid I can't do that.");
 					} else {
 						changedArray.push(numToString(" " + number));
