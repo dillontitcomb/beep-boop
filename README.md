@@ -26,7 +26,7 @@ _This web page takes a number input from a user and displays an array of all of 
 	* _Example output: (alert: Please input a positive integer.)_
 	* _Example input: -15_
 	* _Example output: (alert: Please input a positive integer.)_
-* _Program does not return "I'm sorry dave..." for the input 0, despite it being divisible by three._
+* _Program does not return "I'm sorry Dave..." for the input 0, despite it being divisible by three._
 	* _Example input: 0 % 3_
 	* _Example output: 0_
 	* _Solution: output array is created with a '0' value and counts from one._
