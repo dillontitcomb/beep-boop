@@ -11,7 +11,7 @@ var numToString = function(number) {
 
 $(document).ready(function() {
   $("form#numForm").submit(function(event) {
-		var numArray = []
+		var numArray = [0]
 		var changedArray = [];
 		var userInput = $("#numInput").val();
 		var total = 0;
@@ -20,7 +20,9 @@ $(document).ready(function() {
 			numArray.push(total);
 		}
 		numArray.forEach(function(number) {
-			if (number % 3 === 0 && number !== 0) {
+			if (number <= 0) {
+				alert("Please input a positive integer.")
+			}	else if (number % 3 === 0 && number !== 0) {
 					changedArray.push("I'm sorry Dave. I'm afraid I can't do that.");
 			} else {
 					changedArray.push(numToString(number));
