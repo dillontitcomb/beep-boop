@@ -3,8 +3,15 @@
 }
 
 button {
+	font-weight: bold;
+	color: white;
 	margin-top: 15px;
 	margin-bottom: 15px;
+	background-color: #DF0B11;
+}
+
+label {
+	font-weight: bold;
 }
 
 #hal {
@@ -16,5 +23,9 @@ button {
 }
 
 .jumbotron {
+	background-color: #B7B3B2;
 	padding-top: 20px;
+}
+.resultHeader {
+	padding: 5px;
 }

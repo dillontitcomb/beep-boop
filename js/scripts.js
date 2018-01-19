@@ -24,18 +24,22 @@ $(document).ready(function() {
 				total += 1;
 				numArray.push(total);
 			}
-				numArray.forEach(function(number) {			//For each loop either returns favorite number text, I'm sorry text, or sends number through boop beep function
-					if (number == userFavNum) {
-						changedArray.push(number + " is " + userName + "'s favorite number!");
-					}	else if (number % 3 === 0 && number !== 0) {
-						changedArray.push(" I'm sorry " + userName + ". I'm afraid I can't do that.");
-					} else {
-						changedArray.push(boopBeepTest(" " + number));
-					}
-				});
+			numArray.forEach(function(number) {			//For each loop either returns favorite number text, I'm sorry text, or sends number through boop beep function
+				if (number == userFavNum) {
+					changedArray.push(number + " is " + userName + "'s favorite number!");
+				}	else if (number % 3 === 0 && number !== 0) {
+					changedArray.push(" I'm sorry " + userName + ". I'm afraid I can't do that.");
+				} else {
+					changedArray.push(boopBeepTest(" " + number));
+				}
+			});
+			$("p.showArray").text(changedArray);				//Replaces paragraph text with array
+			$("#results").show();												//Shows paragraph and header text by showing the #results div
+			event.preventDefault();
 		};
-		$("p.showArray").text(changedArray);				//Replaces paragraph text with array
-		$("#results").show();												//Shows paragraph and header text by showing the #results div
-		event.preventDefault();
+		$("button#reverseButton").click(function(event) {
+			$("p.showArray").text(changedArray.reverse());
+			event.preventDefault();
+		});
 	});
 });

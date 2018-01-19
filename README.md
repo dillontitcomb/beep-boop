@@ -46,7 +46,7 @@ _This web page takes a number input from a user and displays an array of all of 
 
 ## Known Bugs
 
-_No known bugs._
+_When an error message is triggered, the results text also appears. This has not been fixed._
 
 ## Support and contact details
 
