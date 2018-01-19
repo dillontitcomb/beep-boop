@@ -36,6 +36,9 @@ _This web page takes a number input from a user and displays an array of all of 
 	* _Example input: 0 % 3_
 	* _Example output: 0_
 	* _Solution: output array is created with a '0' value and counts from one._
+* _Program reverses the array when a button in the results section is clicked._
+	* _Example input: Reverse_
+	* _Example output: "Boop!, Beep!" --> "Beep! Boop!"_
 
 ## Setup/Installation Requirements
 
