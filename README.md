@@ -6,7 +6,7 @@
 
 ## Description
 
-_This web page takes an number input from a user and displays an array of all of the integers counting to that number from zero with some modifications. For instance, numbers with ones and zeroes in them will show as "boop" and "beep" respectively, whereas numbers divisible by three will return "I'm sorry Dave. I'm afraid I can't do that."_
+_This web page takes a number input from a user and displays an array of all of the integers counting to that number from zero with some modifications. For instance, numbers with ones and zeroes in them will show as "Boop!" and "Beep!" respectively, whereas numbers divisible by three will return "I'm sorry Dave. I'm afraid I can't do that."_
 
 ## Specifications
 
@@ -19,10 +19,14 @@ _This web page takes an number input from a user and displays an array of all of
 * _Program replaces any numbers divisible by three with "I'm sorry Dave. I'm afraid I can't do that."_
 	* _Example input: 6_
 	* _Example output: "I'm sorry Dave. I'm afraid I can't do that."_
-* _Program provides a help error if the number input is 0 or negative._
+* _Program provides a help error if the number input is blank, 0, or negative._
+	* _Example input: (blank)_
+	* _Example output: (alert: Please input a positive integer.)_
+	* _Example input: 0_
+	* _Example output: (alert: Please input a positive integer.)_
 	* _Example input: -15_
 	* _Example output: (alert: Please input a positive integer.)_
-* _Program does not treat 0 as divisible by three_
+* _Program does not return "I'm sorry dave..." for the input 0, despite it being divisible by three._
 	* _Example input: 0 % 3_
 	* _Example output: 0_
 	* _Solution: output array is created with a '0' value and counts from one._
